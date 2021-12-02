@@ -1,1 +1,2 @@
-# K-armed-Bendits
+In this project, it is examined how to solve a k-armed bandit problem using Open-AI gym environment. The goal is to better understand the the tradeoff between exploration and exploiation.
+Unfortunatley, gym does NOT provide a multi-armed bandit environment. Therefore, it is proposed a new environment following the framework of gym. This enviroment is a gambiling room with ten different slot machines (a 10-armed bandit problem). The reward of each slot machine follows a normal distribution, but the average reward (mean) and variance of each action are different. The goal is to determine the optimal action from all possible actions/machines.
